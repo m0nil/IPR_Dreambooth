@@ -4,8 +4,9 @@ This repository demonstrates how to fine-tune Stable Diffusion using Dreambooth 
 
 ## Description
 
-This project allows you to teach Stable Diffusion a new concept (a mini yellow alarm clock in this case) by fine-tuning the model on a small set of images. You can personalize the model to generate images of your own concepts.
-
+This project allows you to teach Stable Diffusion a new concept (a mini yellow alarm clock in this case) by fine-tuning the model on a small set of images. You can personalize the model to generate images of your own concepts.   
+The [IPR_Dreambooth_for_alarm_clock.ipynb](IPR_Dreambooth_for_alarm_clock.ipynb) file contains the run for the subject an alarm clock as provided in the dataset [Dreambooth Dataset](https://github.com/google/dreambooth/tree/main).   
+The [diffusers/sd_dreambooth_training.ipynb](sd_dreambooth_training.ipynb) file contains the run for a toy cat as a subject as provided in the Hugging Face dataset. The image urls are available.
 ## Key Features
 
 - Fine-tunes the Stable Diffusion model using Dreambooth.
